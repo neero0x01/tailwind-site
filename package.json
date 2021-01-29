@@ -1,0 +1,30 @@
+{
+  "name": "tailwind-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neero0x01/tailwind-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neero0x01/tailwind-site/issues"
+  },
+  "homepage": "https://github.com/neero0x01/tailwind-site#readme",
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "parcel-bundler": "latest",
+    "postcss": "^7",
+    "postcss-modules": "latest"
+  },
+  "dependencies": {
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
